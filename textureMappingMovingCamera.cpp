@@ -1,12 +1,7 @@
 /*
  * Author: Fitsum Kiros
  * Date: 04-07-2015
-<<<<<<< HEAD
- * 
- *                                
-=======
  *
->>>>>>> origin/master
  */
 #include <GL/glut.h>
 #include <VirtualCamera.h> //header file for virtual camera navigation
