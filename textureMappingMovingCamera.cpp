@@ -2,24 +2,7 @@
  * Author: Fitsum Kiros
  * Date: 04-07-2015
  * 
- *                                  Message to Students
- * ==========================================================================================
- * The program is written primarily to introduce you to texture mapping and navigation of a 3D scene using the virtual camera.
- * Before you attempt to read or use any of the code for your project, you MUST study and understand the theory of transformations,
- * viewing pipeline, illumination model and texture mapping. (Concerning texture mapping focus on 2D texture Mapping).
- * The library I used for texture mapping is called SOIL(Simple OpenGL Image Library). You can read how to use functions of the library
- * from the HTML file (soil.html) located in the soil folder. You can either download the library from http://www.lonesock.net/soil.html 
- * or you can use the copy I have uploaded to github. I have included a text file (SOIL for Dev-CPP) to show you how you should configure 
- * Dev-Cpp to use SOIL.
- *
- * The program enables navigation of a 3D scene by pressing arrow keys. The implementation for of the virutal camera is separated 
- * in a header (.h) file and implementation (.cpp) files. Go through both files to see how things work. 
- * To move or rotate the camera use the following
- *     - Left and right arrow keys turn the virtual camera to the left and right respectively
- *     - Down and Up arrow keys move the camera back and forth respecively
- * Key presses 'C' and 'O' close and open the door respectively. Composition Transformation is used to achieve that.
- * Another feature of the program is texture mapping. The grass, ceramic wall and the door are all
- * quadrilaterals with texture (2D) images mapped on them.
+ *                                
  */
 #include <GL/glut.h>
 #include <VirtualCamera.h> //header file for virtual camera navigation
