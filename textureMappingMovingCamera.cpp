@@ -1,8 +1,12 @@
 /*
  * Author: Fitsum Kiros
  * Date: 04-07-2015
+<<<<<<< HEAD
  * 
  *                                
+=======
+ *
+>>>>>>> origin/master
  */
 #include <GL/glut.h>
 #include <VirtualCamera.h> //header file for virtual camera navigation
@@ -11,12 +15,12 @@
 
 /*********************Global Variables*****************************************/
 //Virutal Camera Movement and Rotation Global Variables
-GLfloat px = 0.0, pz = 5.0,
-        dx = 0.0, dz = pz - 1.0,
-        viewAngle = 180.0,
-        distance = 1.0 ;
+GLfloat px = 0.0, pz = 5.0, //x and z coordinates of the virtual camera's position
+        dx = 0.0, dz = pz - 1.0, //a unit vector which defines the direction of sight
+        viewAngle = 180.0, // the camera is looking towards the negative z-axis
+        distance = 1.0 ; // the distance a virutal camera will move back and forth in a single key press
 const GLfloat py = -5.0, dy = -5.0; //camera moves and rotates in the x-z plane only
-GLboolean solid = true;
+GLboolean solid = true; //a variable which determines solid or wireframe rendering based on user input 
 
 /***********************************GLobal objects************************************/
 Door door(256,256, "images\\door.png");
@@ -31,7 +35,7 @@ void navigate(int key, int x, int y); //a call backnavigation code is executed b
 void keypress(unsigned char key, int x, int y); //user input to close or open the door and display the scene as wireframe or solid is processed by this function
 void reshape(int w, int h); //viewport and projection transformations
 void display();
-
+/********************************* Main function: Program Entry Point***********/
 int main(int argc,char ** argv){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE|GLUT_DEPTH|GLUT_RGBA);
