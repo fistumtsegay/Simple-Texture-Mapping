@@ -13,7 +13,7 @@ The library I used for texture mapping is called SOIL(Simple OpenGL Image Librar
 ~~~~~~~~~~~~~~~~~~~~~~~~
 The code for texture mapping is separated in the header file (texture.h) and C++ implementation file (texture.cpp). The code for creating a texture, loading an image from the folder ".\images\" and specifying the nature of texture mapping is done by the abstract class Texture. The rest three classes classes (Door, Ground and Wall) inherit from class Texture and implement how a primitive is drawn by specifying 2D texture coordintaes and 3D geometric coordinates. 
 ###Virtual Camera Navigation
-The program enables navigation of a 3D scene by pressing arrow keys. The code for of the virutal camera is separated in a header (VirtualCamera.h)  and C++ implementation (VirtualCamera.cpp) files. All you need to understand the code is basic trigonomety from your high school Math lessons.
+The program enables navigation of a 3D scene by pressing arrow keys in the x-z plane. The code for of the virutal camera is separated in a header (VirtualCamera.h)  and C++ implementation (VirtualCamera.cpp) files. All you need to understand the code is basic trigonomety from your high school Math lessons. Any ways, I will include an explanation of how the formula used in the program to move the virtual camera back and forth and  are derived in the wiki page of this repository.
 ###Other Features
 Other features of the prgram include processing user keyboard input to
 * To see wireframe rendering of the scene
