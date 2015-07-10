@@ -1,4 +1,4 @@
-The program is developed using Dev-Cpp on Windows 7. You need to install dev-cpp and add glut package to run the program. In addition to that you need to add SOIL library. See on the wiki page how to configure your dev-cpp.
+The program is developed using Dev-Cpp on Windows 7. You need to install dev-cpp and add glut package to run the program. In addition to that you need to add SOIL library. Refer your wiki page to configure your Dev-cpp.
 #####textureMappingMovingCamera.dev
 The file is a Dev-cpp project file. You have to double click this file to open all the project files.
 #####textureMappingMovingCamera.cpp
